@@ -27,6 +27,7 @@ Learn basic functions in Active Directory such as creating and modifying groups,
 - Installing Windows Server 2022 on a VM.
 - Utilizing Server Manager on Windows Server to manage services and features.
 - Creating documentation files using markdown.
+- Utilizing Git and GitHub to document changes
 
 ## Screenshots
 
