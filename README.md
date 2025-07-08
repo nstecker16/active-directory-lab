@@ -2,7 +2,7 @@
 
 ___Start Date: 6 July 2025___
 
-___End Date: TBD___
+___End Date: current___
 
 ## Objective
 
