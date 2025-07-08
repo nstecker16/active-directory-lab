@@ -14,3 +14,8 @@
 **Created:** 'Nathan A. Stecker' as a User within the Users OU of USA region
 **Created:** 'IT' as a global security group within the Users OU of USA region
 **Created:** 'DL-ITAdmins' as a global distribution group within the Users OU of USA region - DL stands for distribution list
+
+## 2025-7-8 @ 09:00
+
+**Change:** Migrated all lab files to a new directory '\active-directory-lab' that was created with a new local git repository
+**Change:** Linked local git repository with a new repository on GitHub
