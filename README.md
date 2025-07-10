@@ -30,17 +30,17 @@ Learn basic functions in Active Directory such as creating and modifying groups,
 - Creating documentation files using markdown.
 - Utilizing Git and GitHub to document changes
 
-## Screenshots
-
-[1] ![Created OUs, Groups & Users](./screenshots/AD_OUs_groups_users.png)
-[2] ![Created a password policy GPO](./screenshots/AD_GPOs_password_policy.png)
-[3] ![Created a drive mapping preference GPO](./screenshots/AD_GPOs_drive_mapping.png)
-
 ## Challenges, Bugs & Fixes
 
 ## Files
 
 ## Next Steps
+
+## Screenshots
+
+[1] ![Created OUs, Groups & Users](./screenshots/AD_OUs_groups_users.png)
+[2] ![Created a password policy GPO](./screenshots/AD_GPOs_password_policy.png)
+[3] ![Created a drive mapping preference GPO](./screenshots/AD_GPOs_drive_mapping.png)
 
 [^1]: Obtained access for VMWare through [Broadcom's][broadcom] free personal/educational access.
 [^2]: Obtained a [180-day evaluation copy][microsoft-server] for Windows Server 2022.

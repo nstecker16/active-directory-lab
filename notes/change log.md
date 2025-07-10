@@ -25,3 +25,4 @@
 **Change:** Changed names of established OUs (USA, Europe, Asia) to Sales, Accounting, IT
 **Created:** A new Group Policy Object (GPO) called 'Password Policy' in the Group Policy Management Console (GPMC)
 **Created:** A new GPO called 'Drive Mapping' in GPMC
+**Edited:** README.md so that screen shots is at the bottom of the page
