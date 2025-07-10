@@ -20,6 +20,7 @@ Learn basic functions in Active Directory such as creating and modifying groups,
 - Creating Organizational Units (OUs) and adding objects to them such as Users, Computers and Servers. [1]
 - Creating Security groups.
 - Creating Distribution groups.
+- Creating Group Policy Objects (GPOs) including: password policies [2], drive mapping preferences [3]
 
 ## Secondary Concepts Learned
 
@@ -32,6 +33,8 @@ Learn basic functions in Active Directory such as creating and modifying groups,
 ## Screenshots
 
 [1] ![Created OUs, Groups & Users](./screenshots/AD_OUs_groups_users.png)
+[2] ![Created a password policy GPO](./screenshots/AD_GPOs_password_policy.png)
+[3] ![Created a drive mapping preference GPO](./screenshots/AD_GPOs_drive_mapping.png)
 
 ## Challenges, Bugs & Fixes
 

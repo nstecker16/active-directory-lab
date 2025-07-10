@@ -19,3 +19,9 @@
 
 **Change:** Migrated all lab files to a new directory '\active-directory-lab' that was created with a new local git repository
 **Change:** Linked local git repository with a new repository on GitHub
+
+## 2025-7-10 @ 15:55
+
+**Change:** Changed names of established OUs (USA, Europe, Asia) to Sales, Accounting, IT
+**Created:** A new Group Policy Object (GPO) called 'Password Policy' in the Group Policy Management Console (GPMC)
+**Created:** A new GPO called 'Drive Mapping' in GPMC
