@@ -28,4 +28,13 @@
 **Edited:** README.md so that screen shots is at the bottom of the page  
 **Created:** A new GPO called 'Desktop Wallpaper' in GPMC to standardize workstation wallpapers  
 **Created:** A new GPO called 'Disable USB devices' to restrict the connection of removeable USB storage  
-**Created:** A new GPO called 'Account Lockout' to lock an account for 30 minutes after 3 invalid logon attempts to prevent brute force network attacks  
+**Created:** A new GPO called 'Account Lockout' to lock an account for 30 minutes after 3 invalid logon attempts to prevent brute force network attacks
+
+## 2025-7-15 @ 22:00
+
+**Change:** Added screenshots.md to hold project screenshots (added links on README.md to the screenshots)
+**Created:** New VM (Windows 10 Enterprise OS to test GPOs)
+**Created:** Added vm meta info.md to store VM login info
+**Change:** Added - in place of all spaces in file names
+**Added:** Security and Distribution Groups 'Sales', 'Accounting', 'DL-Sales', 'DL-Accounting'
+**Change:** Removed 'Authenticated Users' from security filtering within all GPOs, added the newly created security groups
