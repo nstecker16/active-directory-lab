@@ -46,6 +46,7 @@ Learn basic functions in Active Directory such as creating and modifying groups,
 >   d. Removed 'Authenticated Users' and [added all created security groups](/screenshots.md#gpo-troubleshooting-d) to all GPOs  
 >   e. Restarted server VM to see if changes worked  
 >   f. Solved! (for now)  
+>   g. edit - password policy still seems to be applied to domain controller, will research more in the future
 
 ## Files
 
