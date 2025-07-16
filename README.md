@@ -4,11 +4,11 @@ ___Start Date: 6 July 2025___
 
 ___End Date: current___
 
-**Note:** [a] refers to the lettered screenshots on the [screenshots.md](/screenshots.md) file (you can click on numbers for link navigation to screenshot)
+**Note:** [a] refers to the lettered screenshots on the [screenshots.md](/screenshots.md) file (you can click on letters for link navigation to screenshot)
 
 ## Objective
 
-Learn basic functions in Active Directory such as creating and modifying groups, users, and devices as well as applying policies and more
+Apply basic functions in Active Directory such as creating and modifying groups, users, and devices as well as applying policies and more
 
 ## Setup
 
