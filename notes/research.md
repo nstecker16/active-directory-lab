@@ -23,8 +23,8 @@ Using Powershell to create a local repository following [this guide][merge-git-g
 [paste links below here]: #
 
 [youtube-series]: https://www.youtube.com/watch?v=GsmJowwIh8Q&list=PLAdEnQWAAbfXMY2D4HVZOe-ChfTKmaJfQ
-[vmware-download]: [https://knowledge.broadcom.com/external/article?articleNumber=368667]
-[microsoft-server-download]: [https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022]
+[vmware-download]: https://knowledge.broadcom.com/external/article?articleNumber=368667
+[microsoft-server-download]: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022
 [markdown-guide]: https://www.markdownguide.org/
 [vscode-git-guide]: https://code.visualstudio.com/docs/sourcecontrol/intro-to-git
 [merge-git-guide]: https://www.varonis.com/blog/how-to-merge-in-git
