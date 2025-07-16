@@ -8,6 +8,7 @@ For this lab, I am loosely following a [YouTube series][youtube-series] from Eas
 
 [VMWare Workstation Pro][vmware-download]
 [Microsoft Server 2022][microsoft-server-download]
+[Windows 10 Enterprise][windows-10-enterprise-download]
 
 ## Markdown Guide
 
@@ -27,3 +28,4 @@ Using Powershell to create a local repository following [this guide][merge-git-g
 [markdown-guide]: https://www.markdownguide.org/
 [vscode-git-guide]: https://code.visualstudio.com/docs/sourcecontrol/intro-to-git
 [merge-git-guide]: https://www.varonis.com/blog/how-to-merge-in-git
+[windows-10-enterprise-download]: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise
