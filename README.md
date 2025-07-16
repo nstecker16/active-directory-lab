@@ -50,7 +50,7 @@ Apply basic functions in Active Directory such as creating and modifying groups,
 
 ## Files
 
-[Change Log](./notes/change-log.md)
+[Change Log](./notes/change-log.md)  
 [Research](./notes/research.md)
 
 ## Next Steps
