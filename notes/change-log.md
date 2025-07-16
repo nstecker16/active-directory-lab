@@ -38,3 +38,4 @@
 **Change:** Added - in place of all spaces in file names
 **Added:** Security and Distribution Groups 'Sales', 'Accounting', 'DL-Sales', 'DL-Accounting'
 **Change:** Removed 'Authenticated Users' from security filtering within all GPOs, added the newly created security groups
+**Change:** Changed password of admin account to admin-pass123

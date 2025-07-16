@@ -1,5 +1,5 @@
 ## Domain login
-pass: AJnwr12230423!
+pass: admin-pass123
 
 ## Windows 10 Enterprise 1 login
 user: User1
