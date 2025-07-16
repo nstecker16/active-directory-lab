@@ -50,6 +50,7 @@ Apply basic functions in Active Directory such as creating and modifying groups,
 
 ## Files
 
+[Screenshots](/screenshots.md)
 [Change Log](./notes/change-log.md)  
 [Research](./notes/research.md)
 
