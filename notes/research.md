@@ -6,6 +6,8 @@ For this lab, I am loosely following a [YouTube series][youtube-series] from Eas
 
 ## Software Download Links:
 
+[VMWare Workstation Pro][vmware-download]
+[Microsoft Server 2022][microsoft-server-download]
 
 ## Markdown Guide
 
