@@ -39,7 +39,7 @@ Learn basic functions in Active Directory such as creating and modifying groups,
 - When I first added GPOs to my domain, they were affecting my administrator login as well (restricted my ability to access control panel features on domain controller account)
 > GPO Troubleshooting:
 > 1. Opened Active Directory Users & Computers to verify that the domain controller machine was listed within the domain controller OU
-> 2. Opened Group Policy Management to verify that GPOs were not being applied to domain controller
+> 2. Opened Group Policy Management to verify that GPOs were not being applied to domain controller  
 >   a. GPOs were being applied to all ['Authenticated Users'](/screenshots.md#GPO-troubleshooting-a) by default (included domain controller)  
 >   b. Found a [microsoft documentation page][gpo-troubleshooting-microsoft-docs-solution] detailing security groups in Active Directory  
 >   c. Added new security groups in my respective OUs that will include all users that are not administrators ('Sales', 'Accounting')  
