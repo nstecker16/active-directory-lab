@@ -4,6 +4,8 @@ ___Start Date: 6 July 2025___
 
 ___End Date: current___
 
+**Note:** [#] refers to the numbered screenshots on the screenshots.md file (you can click on numbers for link navigation to screenshot)
+
 ## Objective
 
 Learn basic functions in Active Directory such as creating and modifying groups, users, and devices as well as applying policies and more.
@@ -17,10 +19,10 @@ Learn basic functions in Active Directory such as creating and modifying groups,
 ## Key Concepts Learned
 
 - Adding and utilizing Active Directory on Windows Server.
-- Creating Organizational Units (OUs) and adding objects to them such as Users, Computers and Servers. [1]
+- Creating Organizational Units (OUs) and adding objects to them such as Users, Computers and Servers. [[a]](/screenshots.md#a)
 - Creating Security groups.
 - Creating Distribution groups.
-- Creating Group Policy Objects (GPOs) including: password policies [2], drive mapping preferences [3], desktop wallpaper settings [4], restrict control panel access [5], disabling removeable storage [6], account lockout protocols [7]
+- Creating Group Policy Objects (GPOs) including: password policies [[b]](/screenshots.md#b), drive mapping preferences [[c]](/screenshots.md#c), desktop wallpaper settings [[d]](/screenshots.md#d), restrict control panel access [[e]](/screenshots.md#e), disabling removeable storage [[f]](/screenshots.md#f), account lockout protocols [[g]](/screenshots.md#g)
 
 ## Secondary Concepts Learned
 
@@ -35,16 +37,6 @@ Learn basic functions in Active Directory such as creating and modifying groups,
 ## Files
 
 ## Next Steps
-
-## Screenshots
-
-[1] ![Created OUs, Groups & Users](./screenshots/AD_OUs_groups_users.png)
-[2] ![Created a password policy GPO](./screenshots/AD_GPOs_password_policy.png)
-[3] ![Created a drive mapping preference GPO](./screenshots/AD_GPOs_drive_mapping.png)
-[4] ![Created a desktop wallpaper setting GPO](./screenshots/AD_GPOs_desktop_wallpaper.png)
-[5] ![Restricted access to control panel](./screenshots/AD_GPOs_restrict_control_panel.png)
-[6] ![Disabled removeable storage devices](./screenshots/AD_GPOs_disable_USB_devices.png)
-[7] ![Created an account lockout policy](./screenshots/AD_GPOs_account_lockout.png)
 
 [^1]: Obtained access for VMWare through [Broadcom's][broadcom] free personal/educational access.
 [^2]: Obtained a [180-day evaluation copy][microsoft-server] for Windows Server 2022.
