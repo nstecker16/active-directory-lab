@@ -22,8 +22,8 @@
 #### g
 ![Created an account lockout policy](./screenshots/AD_GPOs_account_lockout.png)
 
-#### GPO-troubleshooting-a
+#### gpo-troubleshooting-a
 ![GPOs being applied to all Authenticated Users](./screenshots/AD_troubleshooting_gpos_applied_all_authenticated_users.png)
 
-#### GPO-troubleshooting-d
+#### gpo-troubleshooting-d
 ![GPOs now only applied to created security groups](./screenshots/AD_troubleshooting_gpos_applied_security_groups.png)
