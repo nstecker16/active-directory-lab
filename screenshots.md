@@ -27,3 +27,6 @@
 
 #### gpo-troubleshooting-d
 ![GPOs now only applied to created security groups](./screenshots/AD_troubleshooting_gpos_applied_security_groups.png)
+
+#### h
+![Configured Windows Server IPv4 address to remain static at 192.168.10.142](./screenshots/AD_Server_Static_IP_Setup.png)

@@ -33,6 +33,7 @@ Apply basic functions in Active Directory such as creating and modifying groups,
 - Utilizing Server Manager on Windows Server to manage services and features
 - Creating documentation files using markdown
 - Utilizing Git and GitHub to document changes
+- Configuring IPv4 address settings [[h]](/screenshots.md#h)
 
 ## Challenges, Bugs & Fixes
 
