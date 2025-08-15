@@ -25,5 +25,5 @@ d. pinged google.com - worked
 3. Looked up issue online - apparently it could be an issue with DNS lookup not working properly
 4. Opened command prompt
 a. ran nslookup google.com - worked
-5. Decided to [reset the network](/screenshots.md#network-troubleshooting)
+5. Decided to [reset the network](/screenshots/AD_troubleshooting_network_reset.png)
 6. After restarting VM, problem seems to be solved
