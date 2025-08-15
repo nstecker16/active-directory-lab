@@ -43,3 +43,9 @@
 ## 2025-8-13 @ 21:50  
 
 **Change:** Configured Windows Server machine's IPv4 address to a static address  
+
+## 2025-8-14 @ 19:00
+
+**Troubleshooting:** Network connectivity issues on VM
+**Added:** Troubleshooting.md to detail steps taken
+**Added:** To-Do.md to list actions that I need to take
