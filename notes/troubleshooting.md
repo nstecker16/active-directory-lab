@@ -20,26 +20,26 @@ g. edit - password policy still seems to be applied to domain controller, will r
 Description of problem:  
 When powering on the VM, the network connectivity icon in the tray showed no network connectivity  
 Steps Taken:  
-1. Checked Network & Internet Settings
-a. Showing that device was connected to the internet via Ethernet on the ActiveDirectoryPractice.local domain
-b. Showing no internet connection
-2. Opened command prompt
-a. Ran ipconfig - all information looked correct
-b. pinged default gateway - worked
-c. pinged DNS server - worked
-d. pinged google.com - worked
-3. Looked up issue online - apparently it could be an issue with DNS lookup not working properly
-4. Opened command prompt
-a. ran nslookup google.com - worked
-5. Decided to [reset the network](./screenshots.md#network-troubleshooting)
-6. After restarting VM, problem seems to be solved
+1. Checked Network & Internet Settings  
+a. Showing that device was connected to the internet via Ethernet on the ActiveDirectoryPractice.local domain  
+b. Showing no internet connection  
+2. Opened command prompt  
+a. Ran ipconfig - all information looked correct  
+b. pinged default gateway - worked  
+c. pinged DNS server - worked  
+d. pinged google.com - worked  
+3. Looked up issue online - apparently it could be an issue with DNS lookup not working properly  
+4. Opened command prompt  
+a. ran nslookup google.com - worked  
+5. Decided to [reset the network](./screenshots.md#network-troubleshooting)  
+6. After restarting VM, problem seems to be solved  
 
 ## Manual IPv4 Address Configuration not 'sticking'
-Description of the problem:  
-After going through the process of manually configuring an IPv4 address as shown in the [screenshots](./screenshot-folder/AD_Server_Static_IP_Setup.png) several times, the setting didn't seem to save and was reverted back to automatic IP addressing.
+Description of problem:  
+After going through the process of manually configuring an IPv4 address as shown in the [screenshots](./screenshots.md#h) several times, the setting didn't seem to save and was reverted back to automatic IP addressing.  
 Steps Taken:
 1. Navigated through the menus to check for settings I was missing  
-    a. Noticed [another menu](./screenshot-folder/AD_Server_Static_IP_Setup_Opt2.png) in which you can configure IP addressing  
+    a. Noticed [another menu](./screenshots.md#ipv4-manual-config-troubleshooting) in which you can configure IP addressing  
     b. Input same static address info  
     c. Restarted machine to see if it stuck  
     d. Worked this way for some reason  
