@@ -1,6 +1,6 @@
 # Page Links
 
-[README](/README.md) | [Screenshots](./notes/screenshots.md) | [Change Log](./notes/change-log.md) | [Research](./notes/research.md) | [Troubleshooting](./notes/troubleshooting.md) | [To Do](./notes/to-do.md)
+[README](/README.md) | [Screenshots](./screenshots.md) | [Change Log](./change-log.md) | [Research](./research.md) | [Troubleshooting](./troubleshooting.md) | [To Do](./to-do.md)
 
 # Change Log
 
