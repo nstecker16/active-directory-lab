@@ -37,23 +37,14 @@ Apply basic functions in Active Directory such as creating and modifying groups,
 
 ## Challenges, Bugs & Fixes
 
-- When I first added GPOs to my domain, they were affecting my administrator login as well (restricted my ability to access control panel features on domain controller account)
-> GPO Troubleshooting:
-> 1. Opened Active Directory Users & Computers to verify that the domain controller machine was listed within the domain controller OU
-> 2. Opened Group Policy Management to verify that GPOs were not being applied to domain controller  
->   a. GPOs were being applied to all ['Authenticated Users'](/screenshots.md#gpo-troubleshooting-a) by default (included domain controller)  
->   b. Found a [microsoft documentation page][gpo-troubleshooting-microsoft-docs-solution] detailing security groups in Active Directory  
->   c. Added new security groups in my respective OUs that will include all users that are not administrators ('Sales', 'Accounting')  
->   d. Removed 'Authenticated Users' and [added all created security groups](/screenshots.md#gpo-troubleshooting-d) to all GPOs  
->   e. Restarted server VM to see if changes worked  
->   f. Solved! (for now)  
->   g. edit - password policy still seems to be applied to domain controller, will research more in the future
+- When I first added GPOs to my domain, they were affecting my administrator login as well (restricted my ability to access control panel features on domain controller account) [GPO Troubleshooting](/notes/troubleshooting.md#GPOs-effecting-domain-controller)
+- Windows Server VM was showing no internet connectiog [Internet Connectivity Troubleshooting](/notes/troubleshooting.md#windows-server-vm-showing-no-internet-connection-icon)
 
 ## Files
 
-[Screenshots](/screenshots.md)
+[Screenshots](/screenshots.md)  
 [Change Log](./notes/change-log.md)  
-[Research](./notes/research.md)
+[Research](./notes/research.md)  
 
 ## Next Steps
 
