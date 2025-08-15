@@ -40,7 +40,7 @@ Apply basic functions in Active Directory such as creating and modifying groups,
 - When I first added GPOs to my domain, they were affecting my administrator login as well (restricted my ability to access control panel features on domain controller account) [GPO Troubleshooting](./notes/troubleshooting.md#GPOs-effecting-domain-controller)
 - Windows Server VM was showing no internet connectiog [Internet Connectivity Troubleshooting](./notes/troubleshooting.md#windows-server-vm-showing-no-internet-connection-icon)
 
-## Files
+## Page Links
 
 [Screenshots](./notes/screenshots.md)  
 [Change Log](./notes/change-log.md)  

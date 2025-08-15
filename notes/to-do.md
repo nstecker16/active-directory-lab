@@ -1,3 +1,7 @@
+# Page Links
+
+[README](/README.md) | [Screenshots](./notes/screenshots.md) | [Change Log](./notes/change-log.md) | [Research](./notes/research.md) | [Troubleshooting](./notes/troubleshooting.md) | [To Do](./notes/to-do.md)
+
 # To-Do
 
 - [X] Links on troubleshooting.md page not working on GitHub pages
