@@ -26,7 +26,8 @@
 ![Created an account lockout policy](./screenshot-folder/AD_GPOs_account_lockout.png)
 
 #### h
-![Configured Windows Server IPv4 address to remain static at 192.168.10.142](./screenshot-folder/AD_Server_Static_IP_Setup.png)
+![Configured Windows Server IPv4 address to remain static at 192.168.10.142](./screenshot-folder/AD_Server_Static_IP_Setup_Opt1.png)
+![Another method](./screenshot-folder/AD_Server_Static_IP_Setup_Opt2.png)
 
 #### gpo-troubleshooting-a
 ![GPOs being applied to all Authenticated Users](./screenshot-folder/AD_troubleshooting_gpos_applied_all_authenticated_users.png)
@@ -36,3 +37,6 @@
 
 #### network-troubleshooting
 ![Network reset button](./screenshot-folder/AD_troubleshooting_network_reset.png)
+
+#### ipv4-manual-config-troubleshooting
+![Another method for configuring manual IPv4 addressing](./screenshot-folder/AD_Server_Static_IP_Setup_Opt2.png)

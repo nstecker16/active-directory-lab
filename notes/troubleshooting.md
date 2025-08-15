@@ -17,10 +17,12 @@ f. Solved! (for now)
 g. edit - password policy still seems to be applied to domain controller, will research more in the future
 
 ## Windows Server VM showing no internet connection icon
-Steps Taken:
+Description of problem:  
+When powering on the VM, the network connectivity icon in the tray showed no network connectivity  
+Steps Taken:  
 1. Checked Network & Internet Settings
 a. Showing that device was connected to the internet via Ethernet on the ActiveDirectoryPractice.local domain
-a. Showing no internet connection
+b. Showing no internet connection
 2. Opened command prompt
 a. Ran ipconfig - all information looked correct
 b. pinged default gateway - worked
@@ -31,3 +33,13 @@ d. pinged google.com - worked
 a. ran nslookup google.com - worked
 5. Decided to [reset the network](./screenshots.md#network-troubleshooting)
 6. After restarting VM, problem seems to be solved
+
+## Manual IPv4 Address Configuration not 'sticking'
+Description of the problem:  
+After going through the process of manually configuring an IPv4 address as shown in the [screenshots](./screenshot-folder/AD_Server_Static_IP_Setup.png) several times, the setting didn't seem to save and was reverted back to automatic IP addressing.
+Steps Taken:
+1. Navigated through the menus to check for settings I was missing  
+    a. Noticed [another menu](./screenshot-folder/AD_Server_Static_IP_Setup_Opt2.png) in which you can configure IP addressing  
+    b. Input same static address info  
+    c. Restarted machine to see if it stuck  
+    d. Worked this way for some reason  
