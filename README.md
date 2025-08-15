@@ -46,6 +46,7 @@ Apply basic functions in Active Directory such as creating and modifying groups,
 [Change Log](./notes/change-log.md)  
 [Research](./notes/research.md)  
 [Troubleshooting](./notes/troubleshooting.md)  
+[To Do](./notes/to-do.md)  
 
 ## Next Steps
 
