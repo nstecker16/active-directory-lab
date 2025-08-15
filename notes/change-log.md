@@ -57,3 +57,4 @@
 ## 2025-8-14 @ 20:50
 
 **Editing:** Messing with markdown links on troubleshooting.md to see how to get them to work in GitHub pages
+**Editing:** Adding page links at the top of relevant pages to assist with navigation in GitHub Pages
