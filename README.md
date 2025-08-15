@@ -6,7 +6,7 @@ ___End Date: current___
 
 # Page Links
 
-[README](../README.md) | [Screenshots](./screenshots.md) | [Change Log](./change-log.md) | [Research](./research.md) | [Troubleshooting](./troubleshooting.md) | [To Do](./to-do.md)
+[README](#) | [Screenshots](./screenshots.md) | [Change Log](./change-log.md) | [Research](./research.md) | [Troubleshooting](./troubleshooting.md) | [To Do](./to-do.md)
 
 **Note:** [a] refers to the lettered screenshots on the [screenshots.md](./notes/screenshots.md) file (you can click on letters for link navigation to screenshot)
 
