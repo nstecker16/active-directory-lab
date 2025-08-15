@@ -4,7 +4,7 @@ ___Start Date: 6 July 2025___
 
 ___End Date: current___
 
-**Note:** [a] refers to the lettered screenshots on the [screenshots.md](/screenshots.md) file (you can click on letters for link navigation to screenshot)
+**Note:** [a] refers to the lettered screenshots on the [screenshots.md](./notes/screenshots.md) file (you can click on letters for link navigation to screenshot)
 
 ## Objective
 
@@ -20,10 +20,10 @@ Apply basic functions in Active Directory such as creating and modifying groups,
 ## Key Concepts Learned
 
 - Adding and utilizing Active Directory on Windows Server
-- Creating Organizational Units (OUs) and adding objects to them such as Users, Computers and Servers [[a]](/screenshots.md#a)
+- Creating Organizational Units (OUs) and adding objects to them such as Users, Computers and Servers [[a]](./notes/screenshots.md#a)
 - Creating Security groups
 - Creating Distribution groups
-- Creating Group Policy Objects (GPOs) including: password policies [[b]](/screenshots.md#b), drive mapping preferences [[c]](/screenshots.md#c), desktop wallpaper settings [[d]](/screenshots.md#d), restrict control panel access [[e]](/screenshots.md#e), disabling removeable storage [[f]](/screenshots.md#f), account lockout protocols [[g]](/screenshots.md#g)
+- Creating Group Policy Objects (GPOs) including: password policies [[b]](./notes/screenshots.md#b), drive mapping preferences [[c]](./notes/screenshots.md#c), desktop wallpaper settings [[d]](./notes/screenshots.md#d), restrict control panel access [[e]](./notes/screenshots.md#e), disabling removeable storage [[f]](./notes/screenshots.md#f), account lockout protocols [[g]](./notes/screenshots.md#g)
 
 ## Secondary Concepts Learned
 
@@ -33,16 +33,16 @@ Apply basic functions in Active Directory such as creating and modifying groups,
 - Utilizing Server Manager on Windows Server to manage services and features
 - Creating documentation files using markdown
 - Utilizing Git and GitHub to document changes
-- Configuring IPv4 address settings [[h]](/screenshots.md#h)
+- Configuring IPv4 address settings [[h]](./notes/screenshots.md#h)
 
 ## Challenges, Bugs & Fixes
 
-- When I first added GPOs to my domain, they were affecting my administrator login as well (restricted my ability to access control panel features on domain controller account) [GPO Troubleshooting](/notes/troubleshooting.md#GPOs-effecting-domain-controller)
-- Windows Server VM was showing no internet connectiog [Internet Connectivity Troubleshooting](/notes/troubleshooting.md#windows-server-vm-showing-no-internet-connection-icon)
+- When I first added GPOs to my domain, they were affecting my administrator login as well (restricted my ability to access control panel features on domain controller account) [GPO Troubleshooting](./notes/troubleshooting.md#GPOs-effecting-domain-controller)
+- Windows Server VM was showing no internet connectiog [Internet Connectivity Troubleshooting](./notes/troubleshooting.md#windows-server-vm-showing-no-internet-connection-icon)
 
 ## Files
 
-[Screenshots](/screenshots.md)  
+[Screenshots](./notes/screenshots.md)  
 [Change Log](./notes/change-log.md)  
 [Research](./notes/research.md)  
 [Troubleshooting](./notes/troubleshooting.md)  
