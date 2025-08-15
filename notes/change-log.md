@@ -49,3 +49,7 @@
 **Troubleshooting:** Network connectivity issues on VM
 **Added:** Troubleshooting.md to detail steps taken
 **Added:** To-Do.md to list actions that I need to take
+
+## 2025-8-14 @ 20:50
+
+**Editing:** Messing with markdown links on troubleshooting.md to see how to get them to work in GitHub pages
