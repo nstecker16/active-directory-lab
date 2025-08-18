@@ -37,7 +37,7 @@ Apply basic functions in Active Directory such as creating and modifying groups,
 - Utilizing Server Manager on Windows Server to manage services and features
 - Creating documentation files using markdown
 - Utilizing Git and GitHub to document changes
-- Configuring IPv4 address settings [[h]](./notes/screenshots.md#h)
+- Configuring static IPv4 address settings [[h]](./notes/screenshots.md#h), DNS server IP address [[i]](./notes/screenshots.md#i)
 
 ## Challenges, Bugs & Fixes
 
