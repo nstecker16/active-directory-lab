@@ -6,11 +6,11 @@
 
 #### a 
 ![Created OUs, Groups & Users](./screenshot-folder/AD_OUs_groups_users.png)
+
 #### b
 ![Created a password policy GPO](./screenshot-folder/AD_GPOs_password_policy.png)
 
 #### c
-
 ![Created a drive mapping preference GPO](./screenshot-folder/AD_GPOs_drive_mapping.png)
 
 #### d
@@ -49,3 +49,6 @@
 
 #### domain-dns-troubleshooting-3
 ![Server machine able to resolve domain name through nslookup](./screenshot-folder/AD_troubleshooting_domain_DNS_3.png)
+
+#### domain-dns-troubleshooting-4a
+![Server manager DNS warning messages](./screenshot-folder/AD_troubleshooting_domain_DNS_4a.png)

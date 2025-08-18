@@ -61,5 +61,5 @@
 
 ## 2025-8-17 @ 21:10
 
-**Change:** Configured Windows 10 Enterprise machine's DNS server to point to the domain machine's IP address
-**Troubleshooting:** Windows 10 machine unable to resolve domain name to IP address
+**Change:** Configured Windows 10 Enterprise machine's DNS server to point to the domain machine's IP address  
+**Troubleshooting:** Windows 10 machine unable to resolve domain name to IP address  

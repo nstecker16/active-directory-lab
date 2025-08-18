@@ -1,0 +1,147 @@
+# Server VM dcdiag /test:dns command line output
+
+---
+
+
+    Microsoft Windows [Version 10.0.20348.587]
+    (c) Microsoft Corporation. All rights reserved.
+
+    C:\Users\Administrator>dcdiag /test:dns
+
+    Directory Server Diagnosis
+
+    Performing initial setup:
+    Trying to find home server...
+    Home Server = WIN-2DL99E9DF7S
+    * Identified AD Forest.
+    Done gathering initial info.
+
+    Doing initial required tests
+
+    Testing server: Default-First-Site-Name\WIN-2DL99E9DF7S
+        Starting test: Connectivity
+            ......................... WIN-2DL99E9DF7S passed test Connectivity
+
+    Doing primary tests
+
+    Testing server: Default-First-Site-Name\WIN-2DL99E9DF7S
+
+        Starting test: DNS
+
+            DNS Tests are running and not hung. Please wait a few minutes...
+            ......................... WIN-2DL99E9DF7S passed test DNS
+
+    Running partition tests on : ForestDnsZones
+
+    Running partition tests on : DomainDnsZones
+
+    Running partition tests on : Schema
+
+    Running partition tests on : Configuration
+
+    Running partition tests on : ActiveDirectoryPractice
+
+    Running enterprise tests on : ActiveDirectoryPractice.local
+        Starting test: DNS
+            Test results for domain controllers:
+
+                DC: WIN-2DL99E9DF7S.ActiveDirectoryPractice.local
+                Domain: ActiveDirectoryPractice.local
+
+
+                TEST: Basic (Basc)
+                    Warning: adapter [00000009] Intel(R) 82574L Gigabit Network Connection has invalid DNS server:
+                    8.8.8.8 (<name unavailable>)
+
+                TEST: Records registration (RReg)
+                    Network Adapter [00000009] Intel(R) 82574L Gigabit Network Connection:
+                        Warning:
+                        Missing CNAME record at DNS server 8.8.8.8:
+                        e33b8829-53ff-4521-8d1d-192092fb065d._msdcs.ActiveDirectoryPractice.local
+
+                        Warning:
+                        Missing A record at DNS server 8.8.8.8:
+                        WIN-2DL99E9DF7S.ActiveDirectoryPractice.local
+
+                        Error:
+                        Missing SRV record at DNS server 8.8.8.8:
+                        _ldap._tcp.ActiveDirectoryPractice.local
+
+                        Error:
+                        Missing SRV record at DNS server 8.8.8.8:
+                        _ldap._tcp.8b1fc49c-6f19-402c-9171-3e50cae12087.domains._msdcs.ActiveDirectoryPractice.local
+
+                        Error:
+                        Missing SRV record at DNS server 8.8.8.8:
+                        _kerberos._tcp.dc._msdcs.ActiveDirectoryPractice.local
+
+                        Error:
+                        Missing SRV record at DNS server 8.8.8.8:
+                        _ldap._tcp.dc._msdcs.ActiveDirectoryPractice.local
+
+                        Error:
+                        Missing SRV record at DNS server 8.8.8.8:
+                        _kerberos._tcp.ActiveDirectoryPractice.local
+
+                        Error:
+                        Missing SRV record at DNS server 8.8.8.8:
+                        _kerberos._udp.ActiveDirectoryPractice.local
+
+                        Error:
+                        Missing SRV record at DNS server 8.8.8.8:
+                        _kpasswd._tcp.ActiveDirectoryPractice.local
+
+                        Error:
+                        Missing SRV record at DNS server 8.8.8.8:
+                        _ldap._tcp.Default-First-Site-Name._sites.ActiveDirectoryPractice.local
+
+                        Error:
+                        Missing SRV record at DNS server 8.8.8.8:
+                        _kerberos._tcp.Default-First-Site-Name._sites.dc._msdcs.ActiveDirectoryPractice.local
+
+                        Error:
+                        Missing SRV record at DNS server 8.8.8.8:
+                        _ldap._tcp.Default-First-Site-Name._sites.dc._msdcs.ActiveDirectoryPractice.local
+
+                        Error:
+                        Missing SRV record at DNS server 8.8.8.8:
+                        _kerberos._tcp.Default-First-Site-Name._sites.ActiveDirectoryPractice.local
+
+                        Error:
+                        Missing SRV record at DNS server 8.8.8.8:
+                        _ldap._tcp.gc._msdcs.ActiveDirectoryPractice.local
+
+                        Warning:
+                        Missing A record at DNS server 8.8.8.8:
+                        gc._msdcs.ActiveDirectoryPractice.local
+
+                        Error:
+                        Missing SRV record at DNS server 8.8.8.8:
+                        _gc._tcp.Default-First-Site-Name._sites.ActiveDirectoryPractice.local
+
+                        Error:
+                        Missing SRV record at DNS server 8.8.8.8:
+                        _ldap._tcp.Default-First-Site-Name._sites.gc._msdcs.ActiveDirectoryPractice.local
+
+                        Error:
+                        Missing SRV record at DNS server 8.8.8.8:
+                        _ldap._tcp.pdc._msdcs.ActiveDirectoryPractice.local
+
+                Error: Record registrations cannot be found for all the network adapters
+
+            Summary of test results for DNS servers used by the above domain controllers:
+
+                DNS server: 8.8.8.8 (<name unavailable>)
+                1 test failure on this DNS server
+                Name resolution is not functional. _ldap._tcp.ActiveDirectoryPractice.local. failed on the DNS server 8.8.8.8
+
+            Summary of DNS test results:
+
+                                                Auth Basc Forw Del  Dyn  RReg Ext
+                _________________________________________________________________
+                Domain: ActiveDirectoryPractice.local
+                WIN-2DL99E9DF7S              PASS WARN PASS PASS PASS FAIL n/a
+
+            ......................... ActiveDirectoryPractice.local failed test DNS
+
+    C:\Users\Administrator>

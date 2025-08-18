@@ -49,7 +49,10 @@ Steps Taken:
 Description of problem:  
 Ran "nslookup ActiveDirectoryPractice.local" in the command prompt on the Windows 10 machine to ensure that it was properly resolving the IP address for the domain. The VM [did not recognize](./screenshots.md#domain-dns-troubleshooting) ActiveDirectoryPractice.local as a domain.  
 Steps Taken:  
-1. Pinged domain IP to see if it could communicate with it - yes it worked
-2. Looked up another domain name (google.com) to see if DNS was properly working - yes it worked
-3. Switched to Server VM and [looked up the domain](./screenshots.md#domain-dns-troubleshooting-3) to see if the domain could be recognized at all - yes it could be
-4. 
+1. Pinged domain IP to see if it could communicate with it - yes it worked  
+2. Looked up another domain name (google.com) to see if DNS was properly working - yes it worked  
+3. Switched to Server VM and [looked up the domain](./screenshots.md#domain-dns-troubleshooting-3) to see if the domain could be recognized at all - yes it could be  
+4. On Server VM, looked at Server Manager menus to see if there are any indicators.  
+    a. Looked on the DNS tab, found a couple [warning events](./screenshots.md#domain-dns-troubleshooting-4a) indicating that DNS may be waiting on AD DS directory initialization.  
+    b. [Prompted ChatGPT](./other-resources/chat-gpt-dns-troubleshooting.md) with the warning message to look for solutions  
+    c. [Ran dcdiag /test:dns]()
