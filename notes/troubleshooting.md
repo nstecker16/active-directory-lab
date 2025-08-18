@@ -43,3 +43,13 @@ Steps Taken:
     b. Input same static address info  
     c. Restarted machine to see if it stuck  
     d. Worked this way for some reason  
+
+## Windows 10 Enterprise VM not resolving domain's IP address
+
+Description of problem:  
+Ran "nslookup ActiveDirectoryPractice.local" in the command prompt on the Windows 10 machine to ensure that it was properly resolving the IP address for the domain. The VM [did not recognize](./screenshots.md#domain-dns-troubleshooting) ActiveDirectoryPractice.local as a domain.  
+Steps Taken:  
+1. Pinged domain IP to see if it could communicate with it - yes it worked
+2. Looked up another domain name (google.com) to see if DNS was properly working - yes it worked
+3. Switched to Server VM and [looked up the domain](./screenshots.md#domain-dns-troubleshooting-3) to see if the domain could be recognized at all - yes it could be
+4. 

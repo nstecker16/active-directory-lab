@@ -44,6 +44,7 @@ Apply basic functions in Active Directory such as creating and modifying groups,
 - When I first added GPOs to my domain, they were affecting my administrator login as well (restricted my ability to access control panel features on domain controller account) [GPO Troubleshooting](./notes/troubleshooting.md#GPOs-effecting-domain-controller)
 - Windows Server VM was showing no internet connectiog [Internet Connectivity Troubleshooting](./notes/troubleshooting.md#windows-server-vm-showing-no-internet-connection-icon)
 - IPv4 Static addressing configuration not saving in the Server VM [Static Addressing Troubleshooting](./notes/troubleshooting.md#manual-ipv4-address-configuration-not-sticking)
+- Windows 10 Enterprise VM cannot resolve ActiveDirectoryPractice.local's IP address [Domain DNS troubleshooting](./notes/troubleshooting.md#Windows-10-Enterprise-VM-not-resolving-domain's-IP-address)
 
 ## Page Links
 

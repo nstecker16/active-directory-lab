@@ -43,3 +43,9 @@
 
 #### ipv4-manual-config-troubleshooting
 ![Another method for configuring manual IPv4 addressing](./screenshot-folder/AD_Server_Static_IP_Setup_Opt2.png)
+
+#### domain-dns-troubleshooting
+![Windows 10 machine unable to resolve the domain name of ActiveDirectoryPractice.local](./screenshot-folder/AD_troubleshooting_domain_DNS.png)
+
+#### domain-dns-troubleshooting-3
+![Server machine able to resolve domain name through nslookup](./screenshot-folder/AD_troubleshooting_domain_DNS_3.png)
