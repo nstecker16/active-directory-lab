@@ -29,6 +29,9 @@
 ![Configured Windows Server IPv4 address to remain static at 192.168.10.142](./screenshot-folder/AD_Server_Static_IP_Setup_Opt1.png)
 ![Another method](./screenshot-folder/AD_Server_Static_IP_Setup_Opt2.png)
 
+#### i
+![Configured Windows 10 Enterprise DNS server IP address to go to the domain machine: 192.168.10.142](./screenshot-folder/AD_Win10_Configuring_DNS_Server_Address.png)
+
 #### gpo-troubleshooting-a
 ![GPOs being applied to all Authenticated Users](./screenshot-folder/AD_troubleshooting_gpos_applied_all_authenticated_users.png)
 

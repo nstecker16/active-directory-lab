@@ -58,3 +58,7 @@
 
 **Editing:** Messing with markdown links on troubleshooting.md to see how to get them to work in GitHub pages
 **Editing:** Adding page links at the top of relevant pages to assist with navigation in GitHub Pages
+
+## 2025-8-17 @ 21:10
+
+**Change:** Configured Windows 10 Enterprise machine's DNS server to point to the domain machine's IP address
