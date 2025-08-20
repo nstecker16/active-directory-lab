@@ -55,4 +55,7 @@ Steps Taken:
 4. On Server VM, looked at Server Manager menus to see if there are any indicators.  
     a. Looked on the DNS tab, found a couple [warning events](./screenshots.md#domain-dns-troubleshooting-4a) indicating that DNS may be waiting on AD DS directory initialization.  
     b. [Prompted ChatGPT](./other-resources/chat-gpt-dns-troubleshooting.md) with the warning message to look for solutions  
-    c. [Ran dcdiag /test:dns]()
+    c. [Ran dcdiag /test:dns](./other-resources/dns-troubleshooting-dns-test-cmd-output#test-1) - indicated that 8.8.8.8, my alternate DNS server, was being queried by the test and is an invalid DNS server
+    d. Decided to remove 8.8.8.8 as a DNS server for Server VM
+    e. [Ran dcdiag /test:dns](./other-resources/dns-troubleshooting-dns-test-cmd-output#test-2) - ActiveDirectoryPractice.local successfully passed the dns test
+    f. On Windows 10 machine, removed 8.8.8.8 and ran [Resolve-DnsName ActiveDirectoryPractice.local](./other-resources/dns-troubleshooting-dns-test-cmd-output#test-3) -  

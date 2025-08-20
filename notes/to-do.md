@@ -8,3 +8,4 @@
     a. Moved screenshots and screenshot-folder into the notes folder to make linking between notes pages more straightforward
 - [X] Create section on troubleshooting.md for issue with manual IPv4 address not 'sticking'
 - [ ] Finish troubleshooting DNS issues with Windows 10 machine
+- [ ] Create update to IPv4 troubleshooting and finish troubleshooting
