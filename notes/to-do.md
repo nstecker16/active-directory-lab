@@ -9,3 +9,11 @@
 - [X] Create section on troubleshooting.md for issue with manual IPv4 address not 'sticking'
 - [ ] Finish troubleshooting DNS issues with Windows 10 machine
 - [ ] Create update to IPv4 troubleshooting and finish troubleshooting
+
+--- START v2.0 ---
+
+# To-Do
+
+- [ ] Finish setting up KVM/QEMU
+    a. Issues with KVM/QEMU unable to get r/w access to SSD ISO folder
+- [ ] Install Windows Server 2022 ISO
