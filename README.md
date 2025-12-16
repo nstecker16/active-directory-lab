@@ -1,6 +1,6 @@
-# Active Directory Lab
+# Active Directory Lab v2.0
 
-___Start Date: 6 July 2025___
+___Start Date: 15 December 2025___
 
 ___End Date: current___
 
@@ -10,16 +10,27 @@ ___End Date: current___
 
 **Note:** [a] refers to the lettered screenshots on the [screenshots.md](./notes/screenshots.md) file (you can click on letters for link navigation to screenshot)
 
+## Update for v2.0: 15 December 2025
+
+Re-visiting this project and making some changes:
+- Basically re-creating project from scratch utilizing new evaluation copies
+    - Now using a new Windows 11 Evaluation copy for mock user machines
+- Utilizing Linux's in-built KVM/QEMU virtualization platform with Virtual Machine Manager instead of VMWare Workstation Pro
+    - Current OS kernel is not supported by VMWare
+- Modified README.md to reflect new status of project
+    - Copied old README and moved to /notes/other-resources for reference
+- All other /notes files have a line indicating where v2.0 begins
+
 ## Objective
 
 Apply basic functions in Active Directory such as creating and modifying groups, users, and devices as well as applying policies and more
 
 ## Setup
 
-1. Created virtual machines (VMs) using VMWare Workstation Pro[^1]
-2. Installed Microsoft Server 2022 on a VM[^2]
+1. Created virtual machines (VMs) using KVM/QEMU
+2. Installed Microsoft Server 2022 on a VM[^1]
 3. Added Active Directory as a feature on the server using Server Manager
-4. Installed Microsoft Windows 10 Enterprise on another VM to test policies[^3]
+4. Installed Microsoft Windows 10 Enterprise on another VM to test policies[^2]
 
 ## Key Concepts Learned
 
@@ -31,13 +42,12 @@ Apply basic functions in Active Directory such as creating and modifying groups,
 
 ## Secondary Concepts Learned
 
-- Utilizing a VM environment through VMWare
+- Utilizing a VM environment with Linux KVM/QEMU
 - Installing Windows Server 2022 on a VM
-- Installing Windows 10 Enterprise on a VM
+- Installing Windows 11 Enterprise on a VM
 - Utilizing Server Manager on Windows Server to manage services and features
 - Creating documentation files using markdown
 - Utilizing Git and GitHub to document changes
-- Configuring static IPv4 address settings [[h]](./notes/screenshots.md#h), DNS server IP address [[i]](./notes/screenshots.md#i)
 
 ## Challenges, Bugs & Fixes
 
@@ -56,11 +66,9 @@ Apply basic functions in Active Directory such as creating and modifying groups,
 
 ## Next Steps
 
-[^1]: Obtained access for VMWare through [Broadcom's][broadcom] free personal/educational access
-[^2]: Obtained a [180-day evaluation copy][microsoft-server] for Windows Server 2022
-[^3]: Obtained a [90-day free-trial][windows-10-enterprise] for Windows 10 Enterprise.
+[^1]: Obtained a [180-day evaluation copy][microsoft-server] for Windows Server 2022
+[^2]: Obtained a [90-day free-trial][windows-11-enterprise] for Windows 11 Enterprise.
 
-[broadcom]: https://knowledge.broadcom.com/external/article?articleNumber=368667
 [microsoft-server]: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022
-[windows-10-enterprise]: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise
+[windows-11-enterprise]: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-11-enterprise
 [gpo-troubleshooting-microsoft-docs-solution]: https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/understand-security-groups
