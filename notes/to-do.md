@@ -17,3 +17,6 @@
 - [X] Finish setting up KVM/QEMU
     a. Issues with KVM/QEMU unable to get r/w access to SSD ISO folder
 - [X] Install Windows Server 2022 ISO
+
+- [ ] Finish writing up kvm-qemu-m2ssd-access.md
+- [ ] Start working within Windows Server 22 VM
