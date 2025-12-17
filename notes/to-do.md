@@ -14,6 +14,6 @@
 
 # To-Do
 
-- [ ] Finish setting up KVM/QEMU
+- [X] Finish setting up KVM/QEMU
     a. Issues with KVM/QEMU unable to get r/w access to SSD ISO folder
-- [ ] Install Windows Server 2022 ISO
+- [X] Install Windows Server 2022 ISO
