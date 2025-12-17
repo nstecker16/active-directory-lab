@@ -58,7 +58,7 @@ Apply basic functions in Active Directory such as creating and modifying groups,
 
     --- BEGIN v2.0 ---
     
-- Getting access for KVM/QEMU, the user libvirt-qemu, and the GUI program virt-manager to the mounted M.2 SSD where I have ISO images saved and wanted to store VM data was a challenge. [Here is how I did it.](./notes/other-resources/kvm-qemu-m2ssd-access.md)
+- Getting access for KVM/QEMU, the user libvirt-qemu, and the GUI program virt-manager to the mounted M.2 SSD where I have ISO images saved and wanted to store VM data was a challenge. [Here is how I did it.](./notes/other-resources/kvm-qemu-m2ssd-access.md)  
 
 ## Page Links
 
