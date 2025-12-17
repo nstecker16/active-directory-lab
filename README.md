@@ -56,6 +56,10 @@ Apply basic functions in Active Directory such as creating and modifying groups,
 - IPv4 Static addressing configuration not saving in the Server VM [Static Addressing Troubleshooting](./notes/troubleshooting.md#manual-ipv4-address-configuration-not-sticking)
 - Windows 10 Enterprise VM cannot resolve ActiveDirectoryPractice.local's IP address [Domain DNS troubleshooting](./notes/troubleshooting.md#Windows-10-Enterprise-VM-not-resolving-domain's-IP-address)
 
+    --- BEGIN v2.0 ---
+    
+- Getting access for KVM/QEMU, the user libvirt-qemu, and the GUI program virt-manager to the mounted M.2 SSD where I have ISO images saved and wanted to store VM data was a challenge. [Here is how I did it.](./notes/other-resources/kvm-qemu-m2ssd-access.md)
+
 ## Page Links
 
 [Screenshots](./notes/screenshots.md)  
@@ -66,7 +70,7 @@ Apply basic functions in Active Directory such as creating and modifying groups,
 
 ## Next Steps
 
-[^1]: Obtained a [180-day evaluation copy][microsoft-server] for Windows Server 2022
+[^1]: Obtained a [180-day evaluation copy][microsoft-server] for Windows Server 2022  
 [^2]: Obtained a [90-day free-trial][windows-11-enterprise] for Windows 11 Enterprise.
 
 [microsoft-server]: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022
